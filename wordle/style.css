@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+}
+
+.word-grid{
+    border-collapse: collapse;
+    margin:auto;
+}
+
+td{
+    width:50px;
+    height:50px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.correct{
+    background-color: green;
+}
+
+.exists{
+    background-color: yellow;
+}
+
+.not-there{
+    background-color: gray;
+}
+
+.input{
+    text-align: center;
+    font-size: 30px;
+}
+#g1{
+    width: 100px;
+    height: 30px ;
+    font-size: 20px;
+}
+.input [type=submit]{
+    width:100px;
+    height: 40px;
+    font-size: 25px;
+}
